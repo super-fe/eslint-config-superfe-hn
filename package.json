@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-superfe-hn",
+  "version": "1.0.0",
+  "description": "Eslint configration for Super-FE's HTML-Native apps",
+  "scripts": {
+    "test": "eslint index.js -c eslint.json",
+    "prepare": "npm test"
+  },
+  "pre-commit": "npm run prepare",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/super-fe/eslint-config-superfe-hn.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "superfe",
+    "super-fe"
+  ],
+  "author": {
+    "name": "Yanni Nightingale",
+    "email": "yanni4night@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/super-fe/eslint-config-superfe-hn/issues"
+  },
+  "homepage": "https://github.com/super-fe/eslint-config-superfe-hn#readme",
+  "peerDependencies": {
+    "eslint": "*",
+    "babel-eslint": "*",
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-html": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-html": "*",
+    "graceful-fs": "^4.1.11",
+    "pre-commit": "^1.2.2"
+  }
+}

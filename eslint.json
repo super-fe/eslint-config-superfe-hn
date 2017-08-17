@@ -1,0 +1,68 @@
+{
+    "extends": ["eslint:recommended"],
+    "env": {
+        "browser": true,
+        "amd": true,
+        "jasmine": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": false
+        }
+    },
+    "plugins": [
+        "babel",
+        "html",
+        "promise"
+    ],
+    "settings": {
+        "html/html-extensions": [".san", ".vue"]
+    },
+    "rules": {
+        "semi": 2,
+        "no-bitwise": 2,
+        "no-eval": 2,
+        "no-labels": 2,
+        "no-loop-func": 2,
+        "no-multi-spaces": 2,
+        "no-octal-escape": 2,
+        "no-redeclare": 2,
+        "no-duplicate-imports": 2,
+        "default-case": 2,
+        "no-lone-blocks": 2,
+        "no-self-compare": 2,
+        "no-alert": 2,
+        "no-void": 2,
+        "no-proto": 2,
+        "no-with": 2,
+        "prefer-promise-reject-errors": 2,
+        "no-param-reassign": 2,
+        "no-unused-vars": 2,
+        "quote-props": [2, "as-needed"],
+        "brace-style": [2, "1tbs"]
+    },
+    "globals": {
+        "Promise": true,
+        "require": true,
+        "__DEV__": true,
+        "baidu": true,
+        "bds": true,
+        "T": true,
+        "$": true,
+        "jQuery": true,
+        "goog": true,
+        "fis": true,
+        "F": true,
+        "__inline": true,
+        "__uri": true,
+        "angular": true,
+        "setImmediate": true,
+        "ActiveXObject": true,
+        "unescape": true,
+        "escape": true
+    }
+}
