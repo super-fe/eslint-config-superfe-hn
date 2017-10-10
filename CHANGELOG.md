@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [2.0.0] - 2018-08-18
+## [2.1.0] - 2017-10-10
+### Added
+- `comma-dangle`
+
+## [2.0.0] - 2017-08-18
 ### Added
 - `es6` in `env`
 
@@ -17,5 +21,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - initialize this project
 
+[2.1.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.0.0...2.0.0
-[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.1.0...HEAD

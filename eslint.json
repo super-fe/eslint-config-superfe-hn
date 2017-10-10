@@ -43,6 +43,7 @@
         "prefer-promise-reject-errors": 2,
         "no-param-reassign": 2,
         "no-unused-vars": 2,
+        "comma-dangle": ["error", "never"],
         "quote-props": [2, "as-needed"],
         "brace-style": [2, "1tbs"]
     },
