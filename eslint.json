@@ -1,6 +1,7 @@
 {
     "extends": ["eslint:recommended"],
     "env": {
+        "es6": true,
         "browser": true,
         "amd": true,
         "jasmine": true,
@@ -20,7 +21,7 @@
         "promise"
     ],
     "settings": {
-        "html/html-extensions": [".san", ".vue"]
+        "html/html-extensions": [".san"]
     },
     "rules": {
         "semi": 2,
