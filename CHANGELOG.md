@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [2.3.0] - 2018-02-01
+### Added
+- `array-callback-return`
+
 ## [2.2.0] - 2018-02-01
 ### Added
 - `no-lonely-if`
@@ -26,7 +30,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - initialize this project
 
+[2.3.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.2.0...2.3.0
 [2.2.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.0.0...2.0.0
-[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.2.0...HEAD
+[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.3.0...HEAD
